@@ -59,7 +59,7 @@ BLYNK_WRITE(V0) { //lee desde blynk el estado del boton y si se presiona, el ser
 
 void setup() {
   Serial.begin(115200);
-  Blynk.begin(token, "chuchi", "lalamaria"); //token de autorizacion e internet
+  Blynk.begin(token, "wifi", "password"); //token de autorizacion e internet
   servoMotor.attach(pin);
 
 }
